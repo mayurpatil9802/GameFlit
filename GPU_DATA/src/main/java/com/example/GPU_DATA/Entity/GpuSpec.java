@@ -9,8 +9,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "gpu_specs", uniqueConstraints = @UniqueConstraint(columnNames = "gpu_key"))
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class GpuSpec {
 
